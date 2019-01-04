@@ -5,5 +5,3 @@ RUN apt-get update && apt-get install -y \
     python-pyside \
     python3-pyqt5 \
     cron
-    
-RUN crontab /config/Scripts/root
