@@ -1,3 +1,5 @@
 FROM plexinc/pms-docker
 
-RUN apt-get update && apt-get install python3 && apt-get clean
+RUN apt-get update
+RUN apt-get install python
+RUN apt-get clean
