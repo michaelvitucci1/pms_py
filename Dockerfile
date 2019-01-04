@@ -5,4 +5,5 @@ RUN apt-get update && apt-get install -y \
     python-pyside \
     python-pip \
     python3-pip \
-    python3-pyqt5
+    python3-pyqt5 \
+    cron
