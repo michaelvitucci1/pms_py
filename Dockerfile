@@ -6,4 +6,4 @@ RUN apt-get update && apt-get install -y \
     python3-pyqt5 \
     cron \
    
-RUN python append_hosts.py
+RUN ["python", "./append_hosts.py"]
