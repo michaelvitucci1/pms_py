@@ -5,4 +5,5 @@ RUN apt-get update && apt-get install -y \
     python-pyside \
     python3-pyqt5 \
     cron \
-    python append_hosts.py
+   
+RUN python append_hosts.py
